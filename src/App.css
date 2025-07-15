@@ -1,0 +1,35 @@
+/* Eye-soothing styles for light theme */
+.light-theme-styles {
+  background-color: #f6f8fa !important; /* softer off-white */
+  color: #22223b !important; /* gentle dark blue-gray */
+  font-family: 'Nunito', 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light-theme-styles h1, .light-theme-styles h2, .light-theme-styles h3, .light-theme-styles h4, .light-theme-styles h5, .light-theme-styles h6 {
+  color: #2d3142;
+  font-family: 'Nunito', 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+.light-theme-styles a {
+  color: #3a86ff;
+  text-decoration: underline;
+}
+
+.light-theme-styles p, .light-theme-styles li, .light-theme-styles span {
+  color: #343a40;
+  font-size: 1.05em;
+  line-height: 1.7;
+}
+
+/* Optional: subtle box shadow for cards/sections */
+.light-theme-styles section, .light-theme-styles .card {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(60, 60, 100, 0.04);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}

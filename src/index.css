@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "@fontsource/dela-gothic-one/index.css";
+
+body {
+  font-family: 'Dela Gothic One', sans-serif;
+}
+
+body.light-theme {
+  background: #afafae !important;
+  color: #111 !important;
+}
+
+body.dark-theme {
+  background: #18181b !important;
+  color: #fff !important;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 32px 8px rgba(34,197,94,0.4); }
+  50% { box-shadow: 0 0 48px 16px rgba(34,197,94,0.7); }
+}
+.animate-glow {
+  animation: glow 2.5s ease-in-out infinite;
+}
