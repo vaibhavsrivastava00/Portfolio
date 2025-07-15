@@ -71,6 +71,25 @@ Portfolio/
 
 ---
 
+## 🚀 Deploying to Render
+
+1. **Push your code to GitHub/GitLab/Bitbucket.**
+2. **Install the `serve` package (already included as devDependency):**
+   ```bash
+   npm install serve --save-dev
+   ```
+3. **On Render, create a new Web Service:**
+   - Connect your repo
+   - Set the following fields:
+     - **Build Command:** `npm run build`
+     - **Publish Directory:** `dist`
+     - **Start Command:** `serve -s dist`
+4. **Deploy!** Render will build and serve your static site.
+
+If you use client-side routing, Render will handle it correctly with this setup.
+
+---
+
 ## ✨ Customization
 - **Update your info:** Edit the files in `src/` (e.g., `Hero.jsx`, `About.jsx`, `Projects.jsx`, `Experience.jsx`, `Contact.jsx`).
 - **Add projects:** Update the `projects` array in `src/Projects.jsx`.
