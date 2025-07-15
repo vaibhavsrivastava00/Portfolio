@@ -5,31 +5,31 @@ const projects = [
   {
     name: "Prompt Pilot",
     description: "Developed a VS Code extension that helps developers auto-generate and run commands via an AI-powered task interpreter.",
-    image: "./images/promptpilot.jpg",
+    image: "/images/promptpilot.jpg",
     github: "https://github.com/vaibhavsrivastava00/PromptPilot"
   },
   {
     name: "Sign Language to Text Converter",
     description: "Converts real-time sign language gestures to text using CNN and generates corresponding images using Stable Diffusion.",
-    image: "./images/signlanguage.jpg",
+    image: "/images/signlanguage.jpg",
     github: "https://github.com/vaibhavsrivastava00/Sign-Language-to-Text-using-CNN-main"
   },
   {
     name: "Skynest",
     description: "A web platform for listing and booking stays with user authentication and property management features.",
-    image: "./images/skynest.jpg",
+    image: "/images/skynest.jpg",
     github: "https://github.com/vaibhavsrivastava00/SkyNest"
   },
   {
     name: "SkillMirror",
     description: "An AI-powered web app that conducts mock interviews to help users build confidence and improve speaking skills.",
-    image: "./images/interview.jpg",
+    image: "/images/interview.jpg",
     github: "https://github.com/vaibhavsrivastava00"
   },
   {
     name: "CampusBuddy",
     description: "A web app for day scholars to find nearby rooms, hotels, facilities, and manage expenses—all in one place.",
-    image: "./images/aibuddy.jpg",
+    image: "/images/aibuddy.jpg",
     github: "https://github.com/vaibhavsrivastava00"
   }
 ];
