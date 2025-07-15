@@ -74,7 +74,7 @@ const Contact = () => {
             className={`w-full px-4 py-2 rounded border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-transparent text-zinc-900 dark:text-white placeholder-zinc-400 ${errors.name ? 'border-red-500' : ''}`}
             type="text"
             name="name"
-            placeholder="John Doe"
+            placeholder="Your Name"
             value={form.name}
             onChange={handleChange}
           />
