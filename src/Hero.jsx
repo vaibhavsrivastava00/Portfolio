@@ -114,7 +114,7 @@ const Hero = () => {
       <div className="w-full flex justify-center md:justify-start">
         <button
           className="border-2 border-zinc-800 dark:border-zinc-200 bg-transparent hover:bg-zinc-100 dark:hover:bg-zinc-800 px-8 py-2 rounded font-semibold transition shadow-md text-lg"
-          onClick={() => window.open('/resume/resume.pdf', '_blank')}
+          onClick={() => window.open('/resume.pdf', '_blank')}
         >
           Resume
         </button>
