@@ -7,6 +7,9 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Loader from "./Loader";
+import TechSlider from "./TechSlider";
+import SimpleBar from 'simplebar-react';
+import 'simplebar-react/dist/simplebar.min.css';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -44,15 +47,16 @@ function App() {
   }
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${theme === 'light' ? 'bg-[#fefefe] text-black light-theme-styles' : 'bg-zinc-950 text-white'}`}>
+    <SimpleBar style={{ maxHeight: '100vh' }} autoHide={false} className={`min-h-screen transition-colors duration-300 ${theme === 'light' ? 'bg-[#fefefe] text-black light-theme-styles' : 'bg-zinc-950 text-white'}`}>
       <Navbar />
       <Hero />
       <About />
       <Experience />
       <Projects />
+      <TechSlider />
       <Contact />
       <Footer />
-    </div>
+    </SimpleBar>
   );
 }
 
